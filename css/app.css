@@ -131,7 +131,11 @@ img{
     text-align: center;
     margin: 5rem 0;
 }
+.icono h3{
+    color: var(--primario);
+    text-transform: uppercase;
 
+}
 @media (min-width: 768px){ 
     .iconos{
         display: grid;
