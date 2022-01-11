@@ -72,7 +72,13 @@ img{
     background-color: var(--negro);
     padding: calc(var(--separacion) * 2) 0;
     color: var(--blanco);
+    
 
+}
+.imagen-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .texto-header{
     text-align: center;
@@ -115,3 +121,25 @@ img{
     
 }
 
+/** seccion Iconos **/
+
+.iconos img{
+    height: 10rem;
+    
+}
+.iconos{
+    text-align: center;
+    margin: 5rem 0;
+}
+
+@media (min-width: 768px){ 
+    .iconos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 2rem;
+        
+    }
+    .icono p{
+        text-align: left;
+    }
+}
