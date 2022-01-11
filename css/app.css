@@ -147,3 +147,57 @@ img{
         text-align: left;
     }
 }
+
+/** Sobre tech **/
+.sobre-tech{
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+@media (min-width: 768px){ 
+    .sobre-tech{
+    background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    background-size: 100%, 100%;
+
+    }
+}
+.sobre-tech-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 40rem);
+    row-gap: 5rem;
+
+}
+@media (min-width: 768px){ 
+  .sobre-tech-grid{
+    grid-template-rows: unset;
+    row-gap: unset;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4rem;
+    padding: 2rem 0;
+    
+  }
+
+
+}
+
+
+.texto-sobre-tech{
+    grid-row: 2/3;
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+
+}
+.texto-sobre-tech p{
+    font-size: 2rem;
+    line-height: 2;
+
+}
+.texto-sobre-tech h2{
+    font-size: 4rem;
+}
