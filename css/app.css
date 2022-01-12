@@ -334,3 +334,12 @@ img{
         grid-column: 2/3;
     }
 }
+/** Footer **/
+.footer p{
+    text-align: center;
+    font-family: var(--fuenteSecundaria);
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--primario);
+    padding: 2rem;
+}
