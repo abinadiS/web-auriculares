@@ -292,7 +292,7 @@ img{
         padding: 10rem 0;
     }
 }
-@media (min-width: 1600px){ 
+@media (min-width: 2000px){ 
     .newsletter{
         background-size: 100%, 200rem;
         background-position: center, 0% -30rem;
@@ -306,6 +306,7 @@ img{
 .formulario input[type="text"]{
     width: 100%;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 .formulario input[type="submit"]{
     width: 100%;
